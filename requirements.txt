@@ -1,0 +1,10 @@
+wandb
+pandas
+numpy
+tensorflow
+soundfile
+librosa
+tqdm
+matplotlib
+Pillow
+scikit-learn

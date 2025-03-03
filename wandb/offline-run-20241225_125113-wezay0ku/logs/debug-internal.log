@@ -1,0 +1,15 @@
+{"time":"2024-12-25T12:51:13.9355075+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-25T12:51:13.9355075+08:00","level":"INFO","msg":"created symlink","path":"F:\\Workplace\\yysb\\ks2\\Snoring Dataset\\wandb\\offline-run-20241225_125113-wezay0ku\\logs\\debug-core.log"}
+{"time":"2024-12-25T12:51:14.0775893+08:00","level":"INFO","msg":"created new stream","id":"wezay0ku"}
+{"time":"2024-12-25T12:51:14.0775893+08:00","level":"INFO","msg":"stream: started","id":"wezay0ku"}
+{"time":"2024-12-25T12:51:14.0775893+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"wezay0ku"}
+{"time":"2024-12-25T12:51:14.0775893+08:00","level":"INFO","msg":"sender: started","stream_id":"wezay0ku"}
+{"time":"2024-12-25T12:51:14.0775893+08:00","level":"INFO","msg":"handler: started","stream_id":"wezay0ku"}
+{"time":"2024-12-25T12:51:14.0839943+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-25T13:01:24.2131115+08:00","level":"INFO","msg":"stream: closing","id":"wezay0ku"}
+{"time":"2024-12-25T13:01:24.2131115+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-25T13:01:24.2145364+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-25T13:01:24.2164274+08:00","level":"INFO","msg":"handler: closed","stream_id":"wezay0ku"}
+{"time":"2024-12-25T13:01:24.2164274+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wezay0ku"}
+{"time":"2024-12-25T13:01:24.2164274+08:00","level":"INFO","msg":"sender: closed","stream_id":"wezay0ku"}
+{"time":"2024-12-25T13:01:24.2164274+08:00","level":"INFO","msg":"stream: closed","id":"wezay0ku"}

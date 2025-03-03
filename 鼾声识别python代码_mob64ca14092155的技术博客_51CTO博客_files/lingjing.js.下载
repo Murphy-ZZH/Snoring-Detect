@@ -1,0 +1,24 @@
+var agentUid = user_id ? user_id: 'u_' + new Date().getTime();
+//智搜
+window.chat = new LingJingAgent.Chat({
+    // 站点对应的 agentId
+    agentId: 'fmHCnOh40oa7qeuj9VhdiQ9NWciZzSWL',
+    // 用户唯一 id
+    uid: agentUid,
+    // 对话流的 Container，默认为 document.body
+    container: undefined,
+    /** 启动入口（悬浮球）配置，可不填 */
+    entry: {
+        // 入口的 Container，默认为 document.body
+        container: undefined,
+        // 入口的 image 的 url 地址，默认为动图
+        image: 'https://s2.51cto.com/blog/ai.gif',
+    }
+});
+$(function(){
+    if((router == "blogger/index" || router == "index/index" || router == "blog/original"|| router == "blog/nav-list"|| router == "blog/index") && !/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)){
+        chat.hideEntry();
+    }else{
+        chat.showEntry();
+    }
+})
